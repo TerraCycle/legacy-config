@@ -65,7 +65,7 @@ AllCops:
     - 'client/**/*'
   DisplayCopNames: false
   StyleGuideCopsOnly: false
-  TargetRubyVersion: 2.6.1
+  TargetRubyVersion: 3.0.0
 Layout/ParameterAlignment:
   Description: Align the parameters of a method call if they span more than one line.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-double-indent
@@ -131,6 +131,8 @@ Style/WhileUntilModifier:
   Description: Favor modifier while/until usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#while-as-a-modifier
   Enabled: false
+Style/AccessModifierDeclarations:
+  Enabled: false  
 Metrics/AbcSize:
   Description: A calculated magnitude based on number of assignments, branches, and
     conditions.
