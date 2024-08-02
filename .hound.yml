@@ -1,6 +1,6 @@
 rubocop:
   config_file: .rubocop.yml
-  version: 0.72.0
+  version: 1.22.1
 coffeescript:
   config_file: coffeescript.json
 scss:
@@ -15,4 +15,3 @@ stylelint:
   config_file: .stylelintrc.json
   version: 13.2.1
   enabled: true
-
