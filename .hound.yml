@@ -8,8 +8,8 @@ scss:
 javascript:
   ignore_file: .js-ignore
 eslint:
-  config_file: .eslintrc.json
-  version: 6.3.0
+  config_file: eslint.config.js
+  version: 9.23.0
   enabled: true
 stylelint:
   config_file: .stylelintrc.json
